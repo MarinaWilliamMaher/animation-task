@@ -1,0 +1,128 @@
+.div1 {
+  width: 250px;
+  height: 100px;
+  background-color: blue;
+  position: absolute;
+
+  animation-name: change;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes change {
+  0% {
+    background-color: blue;
+    left: 0;
+  }
+  25% {
+    background-color: rgb(38, 38, 252);
+  }
+  50% {
+    background-color: bisque;
+  }
+  75% {
+    background-color: rgb(43, 42, 42);
+  }
+  100% {
+    background-color: black;
+    left: 1080px;
+  }
+}
+/* ------------------------------------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------------------------- */
+.div2,
+.div4,
+.div6,
+.div8 {
+  width: 250px;
+  height: 100px;
+  background-color: black;
+  top: 150px;
+  right: 0;
+  position: absolute;
+
+  animation-name: change;
+  animation-duration: 2s;
+  animation-delay: 4s;
+  animation-direction: reverse;
+  animation-fill-mode: forwards;
+}
+
+@keyframes change {
+    0% {
+        background-color: blue;
+        left: 0;
+      }
+      25% {
+        background-color: rgb(38, 38, 252);
+      }
+      50% {
+        background-color: beige;
+      }
+      75% {
+        background-color: gray;
+      }
+      100% {
+        background-color: black;
+        left: 1080px;
+      }
+}
+/* -------------------------------------------------------------------------------- */
+.div3,
+.div5,
+.div7 {
+  width: 250px;
+  height: 100px;
+  background-color: blue;
+  top: 300px;
+  position: absolute;
+
+  animation-name: change2;
+  animation-duration: 2s;
+  animation-delay: 6s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes change2 {
+  0% {
+    background-color: blue;
+    left: 0;
+  }
+  25% {
+    background-color: rgb(38, 38, 252);
+  }
+  50% {
+    background-color: beige;
+  }
+  75% {
+    background-color: gray;
+  }
+  100% {
+    background-color: black;
+    left: 1080px;
+  }
+}
+/* ---------------------------------------------------------------------------------------- */
+.div4 {
+  top: 450px;
+  animation-delay: 8s;
+}
+.div6 {
+  top: 750px;
+  animation-delay: 12s;
+}
+.div5 {
+  top: 600px;
+  animation-delay: 10s;
+}
+.div7 {
+  top: 900px;
+  animation-delay: 14s;
+}
+
+.div8 {
+  top: 1050px;
+  animation-delay: 16s;
+}
